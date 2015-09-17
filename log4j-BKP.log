@@ -1,0 +1,76 @@
+(Version.java:43) INFO main org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.5-Final
+(Environment.java:570) INFO main org.hibernate.cfg.Environment - Hibernate 3.5.5-Final
+(Environment.java:603) INFO main org.hibernate.cfg.Environment - hibernate.properties not found
+(Environment.java:781) INFO main org.hibernate.cfg.Environment - Bytecode provider name : javassist
+(Environment.java:662) INFO main org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+(Version.java:37) INFO main org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+(Version.java:42) INFO main org.hibernate.ejb.Version - Hibernate EntityManager 3.5.5-Final
+(AnnotationBinder.java:529) INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.wordpress.programandojava.entities.DVD
+(QueryBinder.java:86) INFO main org.hibernate.cfg.annotations.QueryBinder - Binding Named query: DVD.findAll => SELECT d FROM DVD d
+(QueryBinder.java:86) INFO main org.hibernate.cfg.annotations.QueryBinder - Binding Named query: DVD.count => SELECT COUNT(d) FROM DVD d
+(QueryBinder.java:86) INFO main org.hibernate.cfg.annotations.QueryBinder - Binding Named query: DVD.findByAno => SELECT d FROM DVD d WHERE d.ano = :ano
+(EntityBinder.java:501) INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity com.wordpress.programandojava.entities.DVD on table DVD
+(AnnotationBinder.java:529) INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.wordpress.programandojava.entities.Genero
+(QueryBinder.java:86) INFO main org.hibernate.cfg.annotations.QueryBinder - Binding Named query: Genero.findAll => SELECT g FROM Genero g ORDER BY g.nome ASC
+(QueryBinder.java:86) INFO main org.hibernate.cfg.annotations.QueryBinder - Binding Named query: Genero.count => SELECT COUNT(g) FROM Genero g
+(EntityBinder.java:501) INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity com.wordpress.programandojava.entities.Genero on table GENERO
+(AnnotationBinder.java:529) INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.wordpress.programandojava.entities.Authority
+(EntityBinder.java:501) INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity com.wordpress.programandojava.entities.Authority on table AUTHORITY
+(AnnotationBinder.java:529) INFO main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.wordpress.programandojava.entities.User
+(EntityBinder.java:501) INFO main org.hibernate.cfg.annotations.EntityBinder - Bind entity com.wordpress.programandojava.entities.User on table USER
+(AnnotationConfiguration.java:450) INFO main org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+(HibernateSearchEventListenerRegister.java:75) INFO main org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+(DriverManagerConnectionProvider.java:64) INFO main org.hibernate.connection.DriverManagerConnectionProvider - Using Hibernate built-in connection pool (not for production use!)
+(DriverManagerConnectionProvider.java:65) INFO main org.hibernate.connection.DriverManagerConnectionProvider - Hibernate connection pool size: 20
+(DriverManagerConnectionProvider.java:68) INFO main org.hibernate.connection.DriverManagerConnectionProvider - autocommit mode: true
+(DriverManagerConnectionProvider.java:103) INFO main org.hibernate.connection.DriverManagerConnectionProvider - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/locadora
+(DriverManagerConnectionProvider.java:109) INFO main org.hibernate.connection.DriverManagerConnectionProvider - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+(SettingsFactory.java:117) INFO main org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.5.42
+(SettingsFactory.java:118) INFO main org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.13 ( Revision: ${bzr.revision-id} )
+(Dialect.java:206) INFO main org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+(JdbcSupportLoader.java:79) INFO main org.hibernate.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+(TransactionFactoryFactory.java:62) INFO main org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+(TransactionManagerLookupFactory.java:80) INFO main org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+(SettingsFactory.java:169) INFO main org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+(SettingsFactory.java:173) INFO main org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+(SettingsFactory.java:180) INFO main org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+(SettingsFactory.java:183) INFO main org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+(SettingsFactory.java:188) INFO main org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+(SettingsFactory.java:196) INFO main org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+(SettingsFactory.java:204) INFO main org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+(SettingsFactory.java:228) INFO main org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+(SettingsFactory.java:231) INFO main org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+(SettingsFactory.java:235) INFO main org.hibernate.cfg.SettingsFactory - Generate SQL with comments: enable
+(SettingsFactory.java:239) INFO main org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: enable
+(SettingsFactory.java:243) INFO main org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: enable
+(SettingsFactory.java:410) INFO main org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+(ASTQueryTranslatorFactory.java:47) INFO main org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+(SettingsFactory.java:251) INFO main org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+(SettingsFactory.java:256) INFO main org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+(SettingsFactory.java:261) INFO main org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+(SettingsFactory.java:265) INFO main org.hibernate.cfg.SettingsFactory - Query cache: enable
+(SettingsFactory.java:395) INFO main org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+(SettingsFactory.java:275) INFO main org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: enable
+(SettingsFactory.java:284) INFO main org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: enabled
+(SettingsFactory.java:304) INFO main org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+(SettingsFactory.java:313) INFO main org.hibernate.cfg.SettingsFactory - Statistics: disabled
+(SettingsFactory.java:317) INFO main org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+(SettingsFactory.java:332) INFO main org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+(SettingsFactory.java:336) INFO main org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+(SettingsFactory.java:340) INFO main org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+(SessionFactoryImpl.java:199) INFO main org.hibernate.impl.SessionFactoryImpl - building session factory
+(SessionFactoryObjectFactory.java:105) INFO main org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+(SchemaUpdate.java:155) INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+(SchemaUpdate.java:167) INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+(SchemaUpdate.java:179) INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - updating schema
+(DatabaseMetadata.java:119) INFO main org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: AUTHORITY
+(DatabaseMetadata.java:119) INFO main org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: DVD
+(DatabaseMetadata.java:119) INFO main org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: GENERO
+(DatabaseMetadata.java:119) INFO main org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: USER
+(DatabaseMetadata.java:119) INFO main org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: USER_AUTH
+(DatabaseMetadata.java:119) INFO main org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: AUTHORITY
+(DatabaseMetadata.java:119) INFO main org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: DVD
+(DatabaseMetadata.java:119) INFO main org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: GENERO
+(DatabaseMetadata.java:119) INFO main org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: USER
+(DatabaseMetadata.java:119) INFO main org.hibernate.tool.hbm2ddl.DatabaseMetadata - table not found: USER_AUTH
+(SchemaUpdate.java:217) INFO main org.hibernate.tool.hbm2ddl.SchemaUpdate - schema update complete
